@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width">
+		<title>Mariah's Bootstarp Portfolio</title>
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	  	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	  	<link rel="stylesheet" type="text/css" href="styles.css">
+	  	<script type="text/javascript" src="bootstrap/js/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<img class="title-logo" src="images/logo.png" alt="Mariah's logo">
+				</div>
+				<div class="col-md-6 text-right text-uppercase">
+					<h1 class="title-super text-thin">Mariah Dunn</h1>
+					<h4>Front End Ninja</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<img class="img-responsive" src="images/me3.png" alt="Mariah picture">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="text-muted">Featured Work</h2>
+				</div>
+			</div>
+			<div class="row text-center">
+				<div class="col-md-4">
+					<img class="img-responsive center-block" src="images/XAML.png" alt="XAML Blog" data-toggle="modal" data-target="#project1">
+					<h3 class="text-uppercase">XAML Blog Post</h3>
+					<p><a href="https://blogs.windows.com/buildingapps/2013/11/11/xaml-text-improvements-in-windows-8-1/"> Link to project</a></p>
+				</div>
+				<div class="col-md-4">
+					<img class="img-responsive center-block" src="images/hermitcrab.png" alt="Hermit Crab" data-toggle="modal" data-target="#project2">
+          			<h3 class="text-uppercase">Animitronic Hermit Crab </h3>
+          			<p><a href="https://www.youtube.com/watch?v=J4XJ-ZQuR88"> Link to project</a></p>  
+				</div>
+				<div class="col-md-4">
+ 					<img class="img-responsive center-block" src="images/robotic_bookshelf.jpg" alt="Robotic Bookshelf" data-toggle="modal" data-target="#project3">
+          			<h3 class="text-uppercase">Autoshelf</h3>
+         			<p><a href="https://www.youtube.com/watch?v=KubfRgfQ4YQ"> Link to project</a></p>   
+				</div>
+			</div>
+		</div>
+				<!-- Modal -->
+		<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h4 class="modal-title" id="myModalLabel">XAML Blog</h4>
+		      </div>
+		      <div class="modal-body">
+		        <img class="img-responsive center-block" src="images/XAML.png" alt="Blog Entry">
+		        This was a blog entry I wrote for Microsoft on the new features that were added to XAML text during Windows 8.1. 
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h4 class="modal-title" id="myModalLabel2">Animitronic Hermit Crab</h4>
+		      </div>
+		      <div class="modal-body">
+		        <img class="img-responsive center-block" src="images/hermitcrab.png" alt="Hermit Crab">
+		        This was a project I built during a mechanical prototyping class in college. I worked on a team with 6 people. During this project our goal was to 3D print the entire transmition for the hermit crab in one print. The entire crab was printed in 3 prints, including 2 pieces for the shell.
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h4 class="modal-title" id="myModalLabel3">Autoshelf</h4>
+		      </div>
+		      <div class="modal-body">
+		        <img class="img-responsive center-block" src="images/robotic_bookshelf.jpg" alt="Robotic Bookshelf">
+		        This was a project I built for a Principles of Engineering class. I worked with 3 other people. During this project I was the only mechanical engineer and I did the full 3D model in Solidworks and machined most of the parts on a Mill. 
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</body>
+</html>
